@@ -13,8 +13,21 @@ def clear_table(data: list):
     data.clear()
 
 
-spisok = [{'name': 'Pavel', 'age': '30'}, {'name': 'Andrey', 'age': '22'},
-          {'name': 'Egor', 'age': '27'}]
+spisok = [
+          {
+              'name': 'Pavel', 
+              'age': '30'
+          }, 
+          {
+              'name': 'Andrey', 
+              'age': '22'
+          },
+          {
+              'name': 'Egor', 
+              'age': '27'
+          }
+         ]
+
 view_table(spisok)
 
 answer = input("Хочешь добавить данных?\n")
